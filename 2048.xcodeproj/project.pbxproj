@@ -25,6 +25,9 @@
 		F8672A6318D91343004E8867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8672A3B18D91343004E8867 /* UIKit.framework */; };
 		F8672A6B18D91343004E8867 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8672A6918D91343004E8867 /* InfoPlist.strings */; };
 		F8672A6D18D91343004E8867 /* _048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8672A6C18D91343004E8867 /* _048Tests.m */; };
+		F8672A7818D9164A004E8867 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = F8672A7718D9164A004E8867 /* Grid.m */; };
+		F8672A7B18D91A4B004E8867 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = F8672A7A18D91A4B004E8867 /* Tile.m */; };
+		F8672A7E18D92DE1004E8867 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F8672A7D18D92DE1004E8867 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,12 @@
 		F8672A6818D91343004E8867 /* 2048Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2048Tests-Info.plist"; sourceTree = "<group>"; };
 		F8672A6A18D91343004E8867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8672A6C18D91343004E8867 /* _048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _048Tests.m; sourceTree = "<group>"; };
+		F8672A7618D9164A004E8867 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		F8672A7718D9164A004E8867 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		F8672A7918D91A4B004E8867 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		F8672A7A18D91A4B004E8867 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		F8672A7C18D92DE1004E8867 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		F8672A7D18D92DE1004E8867 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +132,8 @@
 		F8672A3F18D91343004E8867 /* 2048 */ = {
 			isa = PBXGroup;
 			children = (
+				F8672A7918D91A4B004E8867 /* Tile.h */,
+				F8672A7A18D91A4B004E8867 /* Tile.m */,
 				F8672A4818D91343004E8867 /* AppDelegate.h */,
 				F8672A4918D91343004E8867 /* AppDelegate.m */,
 				F8672A4B18D91343004E8867 /* Main_iPhone.storyboard */,
@@ -134,6 +145,10 @@
 				F8672A5718D91343004E8867 /* Spaceship.png */,
 				F8672A5918D91343004E8867 /* Images.xcassets */,
 				F8672A4018D91343004E8867 /* Supporting Files */,
+				F8672A7618D9164A004E8867 /* Grid.h */,
+				F8672A7718D9164A004E8867 /* Grid.m */,
+				F8672A7C18D92DE1004E8867 /* Game.h */,
+				F8672A7D18D92DE1004E8867 /* Game.m */,
 			);
 			path = 2048;
 			sourceTree = "<group>";
@@ -266,9 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8672A7818D9164A004E8867 /* Grid.m in Sources */,
+				F8672A7B18D91A4B004E8867 /* Tile.m in Sources */,
 				F8672A5618D91343004E8867 /* MyScene.m in Sources */,
 				F8672A5318D91343004E8867 /* ViewController.m in Sources */,
 				F8672A4A18D91343004E8867 /* AppDelegate.m in Sources */,
+				F8672A7E18D92DE1004E8867 /* Game.m in Sources */,
 				F8672A4618D91343004E8867 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
