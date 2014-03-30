@@ -59,8 +59,6 @@
         // Randomly add two pieces
         [self addRandomPiece];
         [self addRandomPiece];
-        [self addRandomPiece];
-        [self addRandomPiece];
     }
     return self;
 }
