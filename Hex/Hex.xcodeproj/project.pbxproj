@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D30E0E18E61626004C13FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D30E0D18E61626004C13FC /* Foundation.framework */; };
+		92D30E1018E61626004C13FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D30E0F18E61626004C13FC /* CoreGraphics.framework */; };
+		92D30E1218E61626004C13FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D30E1118E61626004C13FC /* UIKit.framework */; };
+		92D30E1818E61626004C13FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92D30E1618E61626004C13FC /* InfoPlist.strings */; };
+		92D30E1A18E61626004C13FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D30E1918E61626004C13FC /* main.m */; };
+		92D30E1E18E61626004C13FC /* HXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D30E1D18E61626004C13FC /* HXAppDelegate.m */; };
+		92D30E2018E61626004C13FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D30E1F18E61626004C13FC /* Images.xcassets */; };
+		92D30E2718E61626004C13FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D30E2618E61626004C13FC /* XCTest.framework */; };
+		92D30E2818E61626004C13FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D30E0D18E61626004C13FC /* Foundation.framework */; };
+		92D30E2918E61626004C13FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D30E1118E61626004C13FC /* UIKit.framework */; };
+		92D30E3118E61626004C13FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92D30E2F18E61626004C13FC /* InfoPlist.strings */; };
+		92D30E3318E61626004C13FC /* HexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D30E3218E61626004C13FC /* HexTests.m */; };
+		92D30E3E18E6164A004C13FC /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D30E3D18E6164A004C13FC /* HXViewController.m */; };
+		92D30E4118E61668004C13FC /* HXBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D30E4018E61668004C13FC /* HXBoard.m */; };
+		92D30E4418E65B60004C13FC /* HXPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D30E4318E65B60004C13FC /* HXPiece.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92D30E2A18E61626004C13FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92D30E0218E61626004C13FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D30E0918E61626004C13FC;
+			remoteInfo = Hex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92D30E0A18E61626004C13FC /* Hex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D30E0D18E61626004C13FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92D30E0F18E61626004C13FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92D30E1118E61626004C13FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92D30E1518E61626004C13FC /* Hex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hex-Info.plist"; sourceTree = "<group>"; };
+		92D30E1718E61626004C13FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92D30E1918E61626004C13FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92D30E1B18E61626004C13FC /* Hex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hex-Prefix.pch"; sourceTree = "<group>"; };
+		92D30E1C18E61626004C13FC /* HXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAppDelegate.h; sourceTree = "<group>"; };
+		92D30E1D18E61626004C13FC /* HXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAppDelegate.m; sourceTree = "<group>"; };
+		92D30E1F18E61626004C13FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92D30E2518E61626004C13FC /* HexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D30E2618E61626004C13FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		92D30E2E18E61626004C13FC /* HexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HexTests-Info.plist"; sourceTree = "<group>"; };
+		92D30E3018E61626004C13FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92D30E3218E61626004C13FC /* HexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexTests.m; sourceTree = "<group>"; };
+		92D30E3C18E6164A004C13FC /* HXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXViewController.h; sourceTree = "<group>"; };
+		92D30E3D18E6164A004C13FC /* HXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXViewController.m; sourceTree = "<group>"; };
+		92D30E3F18E61668004C13FC /* HXBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBoard.h; sourceTree = "<group>"; };
+		92D30E4018E61668004C13FC /* HXBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBoard.m; sourceTree = "<group>"; };
+		92D30E4218E65B60004C13FC /* HXPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPiece.h; sourceTree = "<group>"; };
+		92D30E4318E65B60004C13FC /* HXPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPiece.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D30E0718E61626004C13FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D30E1018E61626004C13FC /* CoreGraphics.framework in Frameworks */,
+				92D30E1218E61626004C13FC /* UIKit.framework in Frameworks */,
+				92D30E0E18E61626004C13FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D30E2218E61626004C13FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D30E2718E61626004C13FC /* XCTest.framework in Frameworks */,
+				92D30E2918E61626004C13FC /* UIKit.framework in Frameworks */,
+				92D30E2818E61626004C13FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92D30E0118E61626004C13FC = {
+			isa = PBXGroup;
+			children = (
+				92D30E1318E61626004C13FC /* Hex */,
+				92D30E2C18E61626004C13FC /* HexTests */,
+				92D30E0C18E61626004C13FC /* Frameworks */,
+				92D30E0B18E61626004C13FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92D30E0B18E61626004C13FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D30E0A18E61626004C13FC /* Hex.app */,
+				92D30E2518E61626004C13FC /* HexTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D30E0C18E61626004C13FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D30E0D18E61626004C13FC /* Foundation.framework */,
+				92D30E0F18E61626004C13FC /* CoreGraphics.framework */,
+				92D30E1118E61626004C13FC /* UIKit.framework */,
+				92D30E2618E61626004C13FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92D30E1318E61626004C13FC /* Hex */ = {
+			isa = PBXGroup;
+			children = (
+				92D30E1C18E61626004C13FC /* HXAppDelegate.h */,
+				92D30E1D18E61626004C13FC /* HXAppDelegate.m */,
+				92D30E1F18E61626004C13FC /* Images.xcassets */,
+				92D30E1418E61626004C13FC /* Supporting Files */,
+				92D30E3C18E6164A004C13FC /* HXViewController.h */,
+				92D30E3D18E6164A004C13FC /* HXViewController.m */,
+				92D30E3F18E61668004C13FC /* HXBoard.h */,
+				92D30E4018E61668004C13FC /* HXBoard.m */,
+				92D30E4218E65B60004C13FC /* HXPiece.h */,
+				92D30E4318E65B60004C13FC /* HXPiece.m */,
+			);
+			path = Hex;
+			sourceTree = "<group>";
+		};
+		92D30E1418E61626004C13FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D30E1518E61626004C13FC /* Hex-Info.plist */,
+				92D30E1618E61626004C13FC /* InfoPlist.strings */,
+				92D30E1918E61626004C13FC /* main.m */,
+				92D30E1B18E61626004C13FC /* Hex-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92D30E2C18E61626004C13FC /* HexTests */ = {
+			isa = PBXGroup;
+			children = (
+				92D30E3218E61626004C13FC /* HexTests.m */,
+				92D30E2D18E61626004C13FC /* Supporting Files */,
+			);
+			path = HexTests;
+			sourceTree = "<group>";
+		};
+		92D30E2D18E61626004C13FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D30E2E18E61626004C13FC /* HexTests-Info.plist */,
+				92D30E2F18E61626004C13FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D30E0918E61626004C13FC /* Hex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D30E3618E61626004C13FC /* Build configuration list for PBXNativeTarget "Hex" */;
+			buildPhases = (
+				92D30E0618E61626004C13FC /* Sources */,
+				92D30E0718E61626004C13FC /* Frameworks */,
+				92D30E0818E61626004C13FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hex;
+			productName = Hex;
+			productReference = 92D30E0A18E61626004C13FC /* Hex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92D30E2418E61626004C13FC /* HexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D30E3918E61626004C13FC /* Build configuration list for PBXNativeTarget "HexTests" */;
+			buildPhases = (
+				92D30E2118E61626004C13FC /* Sources */,
+				92D30E2218E61626004C13FC /* Frameworks */,
+				92D30E2318E61626004C13FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92D30E2B18E61626004C13FC /* PBXTargetDependency */,
+			);
+			name = HexTests;
+			productName = HexTests;
+			productReference = 92D30E2518E61626004C13FC /* HexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D30E0218E61626004C13FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michelle Alexander";
+				TargetAttributes = {
+					92D30E2418E61626004C13FC = {
+						TestTargetID = 92D30E0918E61626004C13FC;
+					};
+				};
+			};
+			buildConfigurationList = 92D30E0518E61626004C13FC /* Build configuration list for PBXProject "Hex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92D30E0118E61626004C13FC;
+			productRefGroup = 92D30E0B18E61626004C13FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D30E0918E61626004C13FC /* Hex */,
+				92D30E2418E61626004C13FC /* HexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92D30E0818E61626004C13FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D30E1818E61626004C13FC /* InfoPlist.strings in Resources */,
+				92D30E2018E61626004C13FC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D30E2318E61626004C13FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D30E3118E61626004C13FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D30E0618E61626004C13FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D30E4118E61668004C13FC /* HXBoard.m in Sources */,
+				92D30E3E18E6164A004C13FC /* HXViewController.m in Sources */,
+				92D30E1E18E61626004C13FC /* HXAppDelegate.m in Sources */,
+				92D30E1A18E61626004C13FC /* main.m in Sources */,
+				92D30E4418E65B60004C13FC /* HXPiece.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D30E2118E61626004C13FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D30E3318E61626004C13FC /* HexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92D30E2B18E61626004C13FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92D30E0918E61626004C13FC /* Hex */;
+			targetProxy = 92D30E2A18E61626004C13FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92D30E1618E61626004C13FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D30E1718E61626004C13FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92D30E2F18E61626004C13FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92D30E3018E61626004C13FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92D30E3418E61626004C13FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92D30E3518E61626004C13FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92D30E3718E61626004C13FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hex/Hex-Prefix.pch";
+				INFOPLIST_FILE = "Hex/Hex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92D30E3818E61626004C13FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hex/Hex-Prefix.pch";
+				INFOPLIST_FILE = "Hex/Hex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		92D30E3A18E61626004C13FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hex.app/Hex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hex/Hex-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HexTests/HexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		92D30E3B18E61626004C13FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hex.app/Hex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hex/Hex-Prefix.pch";
+				INFOPLIST_FILE = "HexTests/HexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D30E0518E61626004C13FC /* Build configuration list for PBXProject "Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D30E3418E61626004C13FC /* Debug */,
+				92D30E3518E61626004C13FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D30E3618E61626004C13FC /* Build configuration list for PBXNativeTarget "Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D30E3718E61626004C13FC /* Debug */,
+				92D30E3818E61626004C13FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D30E3918E61626004C13FC /* Build configuration list for PBXNativeTarget "HexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D30E3A18E61626004C13FC /* Debug */,
+				92D30E3B18E61626004C13FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D30E0218E61626004C13FC /* Project object */;
+}
